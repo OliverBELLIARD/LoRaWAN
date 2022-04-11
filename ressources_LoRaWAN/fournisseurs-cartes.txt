@@ -16,7 +16,13 @@ Fournisseurs :
 
 Références modules LoRaWan :
 - Module LoRa-E5 Grove 113020091
-  https://www.gotronic.fr/art-module-lora-e5-grove-113020091-33673.htm
+  Link: https://www.gotronic.fr/art-module-lora-e5-grove-113020091-33673.htm
+  
+  Power data:
+  - Operation current (Transmitter+MCU): 111mA @22dBm in 868MHz type
+  - Operation current (Receiver+MCU): 6.7mA @BW125kHz, 868MHz type
+  - sleep current: 2.1uA(WDT on)
+   (source: https://wiki.seeedstudio.com/LoRa-E5_STM32WLE5JC_Module/)
 
 TTN website:
 https://www.thethingsnetwork.org
