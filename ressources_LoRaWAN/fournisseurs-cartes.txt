@@ -1,18 +1,13 @@
 Fournisseurs :
-- Wurth (gratuit) : composants de base principalement
-  https://eshop.wurth.fr
-
-- Mouser (très conseillé) :
-  https://www.mouser.fr
-
-- GoTronic :
-  https://www.gotronic.fr
-
-- Farnell :
-  https://fr.farnell.com
-
-- RS components :
-  https://fr.rs-online.com/
+- Mouser (très conseillé) :                                                                                                   https://www.mouser.fr
+- GoTronic :                                                                                                                https://www.gotronic.fr
+- Farnell :                                                                                                                  https://fr.farnell.com
+- RS components :                                                                                                         https://fr.rs-online.com/
+- Farnell, rapide, très complet en composant en tout genre :                                                                https://fr.farnell.com/
+- Radio-spare, rapide, très complet en composant en tout genre :                                                      https://fr.rs-online.com/web/
+- Mouser, le plus complet, gros stocks, un peu plus lent dans les livraison :                                                https://www.mouser.fr/
+- Plein de composants passifs (résistance, capacité, bobine, connecteurs) gratuit (partenariat avec l'école) : https://www.we-online.com/catalog/en
+- Orienté DIY, robotique :                                                                                                 https://www.gotronic.fr/
 
 Références modules LoRaWan :
 - Module LoRa-E5 Grove 113020091
@@ -23,6 +18,9 @@ Références modules LoRaWan :
   - Operation current (Receiver+MCU): 6.7mA @BW125kHz, 868MHz type
   - sleep current: 2.1uA(WDT on)
    (source: https://wiki.seeedstudio.com/LoRa-E5_STM32WLE5JC_Module/)
+
+- Cavalier mâle Grove 4 broches vers câble de conversion Grove 4 broches (Pqt de 5)
+  https://fr.farnell.com/seeed-studio/110990210/grove-cable-4p-m-4p-grove-5pk/dp/3410135?st=c%C3%A2ble%20grove
 
 TTN website:
 https://www.thethingsnetwork.org
