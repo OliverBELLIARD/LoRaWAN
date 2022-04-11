@@ -12,3 +12,7 @@ https://fr.farnell.com
 
 RS components :
 https://fr.rs-online.com/
+
+Références :
+- Module LoRa-E5 Grove 113020091
+  https://www.gotronic.fr/art-module-lora-e5-grove-113020091-33673.htm
