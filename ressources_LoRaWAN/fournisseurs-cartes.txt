@@ -19,8 +19,8 @@ Références modules LoRaWan :
   - sleep current: 2.1uA(WDT on)
    (source: https://wiki.seeedstudio.com/LoRa-E5_STM32WLE5JC_Module/)
 
-- Cavalier mâle Grove 4 broches vers câble de conversion Grove 4 broches (Pqt de 5)
-  https://fr.farnell.com/seeed-studio/110990210/grove-cable-4p-m-4p-grove-5pk/dp/3410135?st=c%C3%A2ble%20grove
+- Accessoires Seeed Studio Grove - Universal 4 Pin 20cm Unbuckled Cable (5 PCs Pack)
+  https://www.mouser.fr/c/tools-supplies/accessories/seeed-studio-accessories/?q=cable%20grove&OrgTerm=c%C3%A2ble%20grove
 
 TTN website:
 https://www.thethingsnetwork.org
