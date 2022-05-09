@@ -2,6 +2,7 @@
 Ressources pour le projet LoRaWAN
 
 TODO list:
+
 1- Gateway: trouver une solution 12h
  - Le fabriquer à partir d'un autre module
 
