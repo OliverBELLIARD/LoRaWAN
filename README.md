@@ -11,4 +11,7 @@ TODO list:
 
 3- Mettre la réception finale 8h
  - Effectuer des tests
- - Un site web pour récupérer les données reçues 
+ - Un site web pour récupérer les données reçues
+
+# Liens utiles
+
