@@ -14,7 +14,7 @@
  - Un site web pour récupérer les données reçues
 
 # Liens utiles
- - https://wiki.seeedstudio.com/Grove_LoRa_E5_New_Version/ 
- - https://www.seeedstudio.com/blog/2020/08/03/lorapedia-an-introduction-of-lora-and-lorawan-technology/ 
- - https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf
- - https://files.seeedstudio.com/products/317990687/res/STM32WLE5JC%20Datasheet.pdf
+ - Modules utilisés : https://wiki.seeedstudio.com/Grove_LoRa_E5_New_Version/ 
+ - Tuto LoRaWAN de Seeed studio : https://www.seeedstudio.com/blog/2020/08/03/lorapedia-an-introduction-of-lora-and-lorawan-technology/ 
+ - Doc des modules utilisés : https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf
+ - Doc des microprocesseurs des modules utilisés : https://files.seeedstudio.com/products/317990687/res/STM32WLE5JC%20Datasheet.pdf
