@@ -22,6 +22,5 @@
  - Tuto AT : https://www.disk91.com/2021/technology/lora/lora-e5-the-seeed-studio-stm32-wl-module/
 
 # Avancement
-- 16/05/2022 :
- 1. Mise en place de la connection UART carte-carte 1h
- 2. Communication entre STM32 et module LoRa-E5 grâce à des commandes AT 1h
+- 16/05/2022 : 1. Mise en place de la connection UART carte-carte 1h
+               2. Communication entre STM32 et module LoRa-E5 grâce à des commandes AT 1h
