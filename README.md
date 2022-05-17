@@ -26,3 +26,5 @@
 - 16/05/2022 : 
   1. Mise en place de la connection UART carte-carte 1h
   2. Communication entre STM32 et module LoRa-E5 grâce à des commandes AT 1h
+- 17/05/2022 :
+  1. Mise en place de la communication LoRa entre deux modules 4h
