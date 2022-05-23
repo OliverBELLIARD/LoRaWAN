@@ -13,7 +13,7 @@
  - Effectuer des tests
  - Un site web pour récupérer les données reçues
 
-# Liens utiles
+## Liens utiles
  - Modules utilisés : https://wiki.seeedstudio.com/Grove_LoRa_E5_New_Version/ 
  - Tuto LoRaWAN de Seeed studio : https://www.seeedstudio.com/blog/2020/08/03/lorapedia-an-introduction-of-lora-and-lorawan-technology/ 
  - Doc des modules utilisés : https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf
@@ -22,7 +22,7 @@
  - Tuto AT : https://www.disk91.com/2021/technology/lora/lora-e5-the-seeed-studio-stm32-wl-module/
  - tuto At arduino : https://create.arduino.cc/projecthub/sufiankaki/lora-e5-communication-without-lorawan-9fbddc?ref=part&ref_id=10308&offset=18
 
-# Avancement
+## Avancement
 - 16/05/2022 : 
   1. Mise en place de la connection UART carte-carte 1h
   2. Communication entre STM32 et module LoRa-E5 grâce à des commandes AT 1h
@@ -31,3 +31,7 @@
 - 23/05/2022 :
   1. On choisit de partir sur une connection LoRa PURE et non LoRaWAN
      (Gateway fonctionnelle pas en place et iréalisable en 8h) 2h
+
+# Protocole LoRa du projet
+1. - Maitre : en mode Tx, il envoie l'id de l'esclave pour la transmission. Ensuite le maitre passe en mode Rx.
+2. - Esclave : si il reçoit son id il...
