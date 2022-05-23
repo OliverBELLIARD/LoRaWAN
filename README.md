@@ -29,4 +29,5 @@
 - 17/05/2022 :
   1. Mise en place de la communication LoRa entre deux modules 4h
 - 23/05/2022 :
-  1. On choisit de partir sur une connection LoRa PURE et non LoRaWAN (Gateway fonctionnelle pas en place)
+  1. On choisit de partir sur une connection LoRa PURE et non LoRaWAN
+     (Gateway fonctionnelle pas en place et iréalisable en 8h) 2h
