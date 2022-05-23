@@ -28,3 +28,5 @@
   2. Communication entre STM32 et module LoRa-E5 grâce à des commandes AT 1h
 - 17/05/2022 :
   1. Mise en place de la communication LoRa entre deux modules 4h
+- 23/05/2022 :
+  1. On choisit de partir sur une connection LoRa PURE et non LoRaWAN (Gateway fonctionnelle pas en place)
