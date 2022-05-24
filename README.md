@@ -31,7 +31,7 @@
 - 23/05/2022 :
   1. On choisit de partir sur une connection LoRa PURE et non LoRaWAN
      (Gateway fonctionnelle pas en place et iréalisable en 8h) 2h
-- 16/05/2022 : 
+- 24/05/2022 : 
   1. Soutenance des projets 3h
   2. Développement d'un protocole de communication pour le réseau LoRa 1h
 
