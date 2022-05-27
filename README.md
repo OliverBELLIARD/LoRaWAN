@@ -40,7 +40,7 @@
 - Temps de transmission de 4ko : 3 secondes
 - Délais entre deux transmissions consécutives de 4ko (temps de transmission compris) : 5s
 
-## Fonctionnemen
+## Fonctionnement
 La transmission :
 - Maitre->Esclave se fait en Hexa
 - Esclave->Maitre se fait en char
