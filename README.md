@@ -36,5 +36,10 @@
   2. Développement d'un protocole de communication pour le réseau LoRa 1h
 
 # Protocole LoRa du projet
+## Infos utilse
+- Temps de transmission de 4ko : 3 secondes
+- Délais entre deux transmissions consécutives de 4ko (temps de transmission compris) : 5s
+
+## Fonctionnement
 1. - Maitre : en mode Tx, il envoie l'id de l'esclave pour la transmission. Ensuite le maitre passe en mode Rx.
 2. - Esclave : si il reçoit son id il...
