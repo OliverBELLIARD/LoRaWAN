@@ -46,25 +46,59 @@ La transmission :
 - Esclave->Maitre se fait en char
 Par défaut, la réception de messages n'est possible qu'en Hexa pour le module LoRa-E5 en mode LoRa.
 
-1. - Maitre : en mode Tx, il envoie l'id de l'esclave pour la transmission. Ensuite le maitre passe en mode Rx.
-2. - Esclave : si il reçoit son id il...
+### 1. Maitre
 
 ```mermaid
 graph TD
 
 A[Tx]
 B[Rx]
-C[Process]
+C[Commandes]
+D[Mise à jour site web]
+E[Message E1]
+F[Message E2]
+G[Message E3]
+H[décodage + Mise à jour variables]
+I[décodage + Mise à jour variables]
+J[décodage + Mise à jour variables]
+K[si aucune réponse attente de 5s]
+L[si aucune réponse attente de 5s]
+M[si aucune réponse attente de 5s]
 
-A --> B
 A --> C
+C --> B
+B --> E
+E --> H
+H --> F
+E --> K
+K --> F
+F --> I
+I --> G
+F --> L
+L --> G
+G --> J
+J --> D
+G --> M
+M --> D
+D --> A
 
 class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
+```
 
-stateDiagram-v2
-    state if_state <<choice>>
-    [*] --> IsPositive
-    IsPositive --> if_state
-    if_state --> False: if n < 0
-    if_state --> True : if n >= 0
+### 2. Esclaves
+
+```mermaid
+graph TD
+
+A[Tx]
+B[Rx]
+C[décodage + Mise à jour des variables]
+D[Envoi des réponses au maitre]
+
+B --> C
+C --> A
+A --> D
+D --> B
+
+class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ```
