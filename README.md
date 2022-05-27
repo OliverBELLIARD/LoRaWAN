@@ -52,12 +52,19 @@ Par défaut, la réception de messages n'est possible qu'en Hexa pour le module 
 ```mermaid
 graph TD
 
-A[Biology]
-B[Chemistry]
-C[Physics]
+A[Tx]
+B[Rx]
+C[Process]
 
 A --> B
 A --> C
 
 class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
+
+stateDiagram-v2
+    state if_state <<choice>>
+    [*] --> IsPositive
+    IsPositive --> if_state
+    if_state --> False: if n < 0
+    if_state --> True : if n >= 0
 ```
