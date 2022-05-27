@@ -42,11 +42,20 @@
 
 ## Fonctionnement
 La transmission :
-- Maitre->Esclave se fait en Hexa
+- Maitre->Esclave se fait en Hexadécimal
 - Esclave->Maitre se fait en char
 Par défaut, la réception de messages n'est possible qu'en Hexa pour le module LoRa-E5 en mode LoRa.
 
 ### 1. Maitre
+
+Trame reçue par les esclaves : #ID$CM$DATA¤   
+Avec :
+- ID : id de l'esclave en Hexadécimal, FF pour les messages concernant tous les esclaves et 00 pour le mode test
+- CM : une commande parmis les suivantes :   
+      - 00 : test   
+      - 01 : send   
+      - 02 : receive   
+- DATA : en cas de commande "receive" ce sont les données à recevoir. 00 sinon   
 
 ```mermaid
 graph TD
