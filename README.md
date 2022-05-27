@@ -40,6 +40,24 @@
 - Temps de transmission de 4ko : 3 secondes
 - Délais entre deux transmissions consécutives de 4ko (temps de transmission compris) : 5s
 
-## Fonctionnement
+## Fonctionnemen
+La transmission :
+- Maitre->Esclave se fait en Hexa
+- Esclave->Maitre se fait en char
+Par défaut, la réception de messages n'est possible qu'en Hexa pour le module LoRa-E5 en mode LoRa.
+
 1. - Maitre : en mode Tx, il envoie l'id de l'esclave pour la transmission. Ensuite le maitre passe en mode Rx.
 2. - Esclave : si il reçoit son id il...
+
+```mermaid
+graph TD
+
+A[Biology]
+B[Chemistry]
+C[Physics]
+
+A --> B
+A --> C
+
+class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
+```
