@@ -120,10 +120,10 @@ A[Rx]
 D[décodage + Mise à jour des variables]
 C[Envoi des réponses au maitre]
 
-B --> C
-C --> A
 A --> D
 D --> B
+B --> C
+C --> A
 
 class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ```
