@@ -115,10 +115,10 @@ Graph d'état : fonctionnement du protocole :
 ```mermaid
 graph TD
 
-A[Tx]
-B[Rx]
-C[décodage + Mise à jour des variables]
-D[Envoi des réponses au maitre]
+B[Tx]
+A[Rx]
+D[décodage + Mise à jour des variables]
+C[Envoi des réponses au maitre]
 
 B --> C
 C --> A
