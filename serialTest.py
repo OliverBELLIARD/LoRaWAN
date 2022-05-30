@@ -1,3 +1,7 @@
+# Get ip commands linux: nmap
+# Get ip scan linux: nmap -sP 192.168.0.0/24
+# Connect through SSH linux command (now done in FileZilla): nmap -sP 192.168.0.0/24
+
 import serial
 import time
 ser = serial.Serial('/dev/serial0',9600)  # open serial port
