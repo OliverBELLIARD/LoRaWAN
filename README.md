@@ -45,7 +45,7 @@
 ## Fonctionnement
 La transmission :
 - Maitre->Esclave se fait en Hexadécimal
-- Esclave->Maitre se fait en char
+- Esclave->Maitre se fait en char   
 Par défaut, la réception de messages n'est possible qu'en Hexa pour le module LoRa-E5 en mode LoRa.
 
 ### 1. Maitre
