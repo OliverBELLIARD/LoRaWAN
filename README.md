@@ -34,6 +34,8 @@
 - 24/05/2022 : 
   1. Soutenance des projets 3h
   2. Développement d'un protocole de communication pour le réseau LoRa 1h
+- 27/05/2022 : 
+  1. Description du protocole LoRa du projet 3h
 
 # Protocole LoRa du projet
 ## Infos utilse
