@@ -57,7 +57,7 @@ Par défaut, la réception de messages n'est possible qu'en Hexa pour le module 
 
 ### 1. Maitre
 
-Trame reçue par les esclaves : #ID$CM$DATA¤   
+Trame reçue par les esclaves : #ID$CM$DATA?    
 Avec :
 - ID : id de l'esclave en Hexadécimal, FF pour les messages concernant tous les esclaves et 00 pour le mode test
 - CM : une commande parmis les suivantes :   
@@ -67,7 +67,7 @@ Avec :
 - DATA : en cas de commande "receive" ce sont les données à recevoir. 00 sinon    
 - "#" : caractère de début de trame   
 - "$" : caractère de séparation   
-- "¤" : caractère de fin   
+- "?" : caractère de fin   
    
 Graph d'état : fonctionnement du protocole :     
 ```mermaid
@@ -109,11 +109,11 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 
 ### 2. Esclaves
 
-Trame reçue par le maitre : #ID$DATA¤   
+Trame reçue par le maitre : #ID$DATA?   
 Avec :
 - "#" : caractère de début de trame   
 - "$" : caractère de séparation   
-- "¤" : caractère de fin   
+- "?" : caractère de fin   
 - ID : id de l'esclave en Hexadécimal, FF pour les messages concernant tous les esclaves et 00 pour le mode test   
 - DATA : données du capteur. Plusieurs informations peuvent être séparés avec le caractère "$"   
    
