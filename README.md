@@ -40,9 +40,10 @@
 - 30/05/2022 : 
   1. Programmation en C du protocole esclave 3h
   2. Mise en place de FileZilla + résolution de problèmes mineurs
-- 31/05/2022 : 
-  1. Fin de la programmation en C du protocole esclave (base à distribuer aux groupes)
-  2. Programmation en Python du protocole maitre
+- 31/05/2022 :  
+  1. Fin de la programmation en C du protocole esclave (base à distribuer aux groupes) 4h
+- 1/05/2022 :  
+  3. Programmation en Python du protocole maitre
 
 # Protocole LoRa du projet
 ## Infos utilse
@@ -134,6 +135,3 @@ C --> A
 
 class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ```
-
-
-**23303124302448656C6C6F20576F726C64213F**
