@@ -36,6 +36,13 @@
   2. Développement d'un protocole de communication pour le réseau LoRa 1h
 - 27/05/2022 : 
   1. Description du protocole LoRa du projet 3h
+  2. Test d'une communication longue distance (~8km). Résultat : pas de communication donc porté <8km
+- 30/05/2022 : 
+  1. Programmation en C du protocole esclave 3h
+  2. Mise en place de FileZilla + résolution de problèmes mineurs
+- 31/05/2022 : 
+  1. Fin de la programmation en C du protocole esclave (base à distribuer aux groupes)
+  2. Programmation en Python du protocole maitre
 
 # Protocole LoRa du projet
 ## Infos utilse
