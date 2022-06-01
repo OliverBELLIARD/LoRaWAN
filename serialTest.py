@@ -1,9 +1,14 @@
 # Get ip commands linux: nmap
 # Get ip scan linux: nmap -sP 192.168.0.0/24
-# Connect through SSH linux command (now done in FileZilla): nmap -sP 192.168.0.0/24
+# Connect through SSH linux command (now done in FileZilla): ssh pi@192.168.0.254
+# Shut down: sudo shutdown -h now
+# FLASK_APP=serialTest_API.py flask run --host 0.0.0.0
+# FLASK_APP=serialTest_API.py flask run
+# nano serialTest_API.py
 
 import serial
 import time
+
 ser = serial.Serial('/dev/serial0',9600)  # open serial port
 print(ser.name)         # check which port was really used
 
