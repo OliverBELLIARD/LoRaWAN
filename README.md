@@ -43,7 +43,9 @@
 - 31/05/2022 :  
   1. Fin de la programmation en C du protocole esclave (base à distribuer aux groupes) 4h
 - 1/05/2022 :  
-  3. Programmation en Python du protocole maitre
+  1. Fin du squelette du script esclave : capacité à interpréter les infos reçues suivant le protocole 2h
+  2. Programmation en Python du protocole maitre (partiellement) 2h
+  3. Démo finale
 
 # Protocole LoRa du projet
 ## Infos utilse
