@@ -13,7 +13,7 @@
  - Effectuer des tests
  - Un site web pour récupérer les données reçues
 
-## Liens utiles
+## Liens utiles pour comprendre la communication LoRa et LoRaWAN avec le module LoRa-E5 et pas que :
  - Modules utilisés : https://wiki.seeedstudio.com/Grove_LoRa_E5_New_Version/ 
  - Tuto LoRaWAN de Seeed studio : https://www.seeedstudio.com/blog/2020/08/03/lorapedia-an-introduction-of-lora-and-lorawan-technology/ 
  - Doc des modules utilisés : https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf
@@ -22,7 +22,9 @@
  - Tuto AT : https://www.disk91.com/2021/technology/lora/lora-e5-the-seeed-studio-stm32-wl-module/
  - tuto At arduino : https://create.arduino.cc/projecthub/sufiankaki/lora-e5-communication-without-lorawan-9fbddc?ref=part&ref_id=10308&offset=18
 
-## Avancement
+## Avancement par séances :   
+*Décharge de responsabilité : Les heures non comptées dans ce récapitulatif ont servi à nous informer, comprendre le fonctionnement du protocole loRa et faire les impératifs sur les projets du à nos responsabilités au sein des groupe. Toutes nos sources sont listés avec des liens ci dessus ou bien en PDF dans les différents dossiers du projet.*    
+   
 - 16/05/2022 : 
   1. Mise en place de la connection UART carte-carte 1h
   2. Communication entre STM32 et module LoRa-E5 grâce à des commandes AT 1h
@@ -51,6 +53,7 @@
 ## Infos utilse
 - Temps de transmission de 4ko : 3 secondes
 - Délais entre deux transmissions consécutives de 4ko (temps de transmission compris) : 5s
+- Les détails du focntionnement du code en langage C est directement embarqué dans le code source des projets CubeIDE sous forme de commentaires adaptés à Doxygen
 
 ## Fonctionnement
 La transmission :
