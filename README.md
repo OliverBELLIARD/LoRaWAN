@@ -50,7 +50,7 @@
   3. Démo finale
 
 # Protocole LoRa du projet
-## Infos utilse
+## Infos utiles
 - Temps de transmission de 4ko : 3 secondes
 - Délais entre deux transmissions consécutives de 4ko (temps de transmission compris) : 5s
 - Les détails du focntionnement du code en langage C est directement embarqué dans le code source des projets CubeIDE sous forme de commentaires adaptés à Doxygen
