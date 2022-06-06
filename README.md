@@ -1,26 +1,22 @@
 # LoRaWAN
 *Git Hub contenant les ressources pour le projet LoRaWAN*
 
-## Liste de choses à faire
+## Problématique
+Le but de ce projet est de mettre en place la structure de base d'une communication entre appareils équipés de microprocesseurs STM32 commandant des modules LoRa-E5 par communication UART. L'idée est de profiter de la présence de la même architecture dans tous les projets pour développer une version pour Nucleo-64 facilement portable vers d'autres cartes avec des microprocesseurs STM32. Le code doit pouvoir en plus permettre d'envoyer 4 ko au maximum à travers une connexion LoRa ou LoRaWAN.
+
+Comme il a été mentionné plus haut, nous avons développé la structure de base qui doit donc être adaptée à chaque projet notamment pour permettre d'interpréter les différentes informations que chaque projet doit transmettre ou recevoir à travers le protocole développé ici.
+
+## Liste des taches prévues en volume horaire
 
 1. **Gateway: trouver une solution 12h**
  - Le fabriquer à partir d'un autre module
 
-2. **Programmer les modules 8h**
+2. **Programmer les modules esclaves 8h**
  - Tester les connexions avec la Gateway
 
-3. **Mettre la réception finale 8h**
+3. **Mettre en place la réception finale 8h**
  - Effectuer des tests
- - Un site web pour récupérer les données reçues
-
-## Liens utiles pour comprendre la communication LoRa et LoRaWAN avec le module LoRa-E5 et pas que :
- - Modules utilisés : https://wiki.seeedstudio.com/Grove_LoRa_E5_New_Version/ 
- - Tuto LoRaWAN de Seeed studio : https://www.seeedstudio.com/blog/2020/08/03/lorapedia-an-introduction-of-lora-and-lorawan-technology/ 
- - Doc des modules utilisés : https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf
- - Doc des microprocesseurs des modules utilisés : https://files.seeedstudio.com/products/317990687/res/STM32WLE5JC%20Datasheet.pdf
- - Video "LoRaWan end node": https://www.youtube.com/watch?v=duwUwXt-hs8&list=PL3XBzmAj53Rkkogh-lti58h_GkhzU1n7U&index=3&ab_channel=AndreasSpiess
- - Tuto AT : https://www.disk91.com/2021/technology/lora/lora-e5-the-seeed-studio-stm32-wl-module/
- - tuto At arduino : https://create.arduino.cc/projecthub/sufiankaki/lora-e5-communication-without-lorawan-9fbddc?ref=part&ref_id=10308&offset=18
+ - Prévoir site web pour récupérer les données reçues
 
 ## Avancement par séances :   
 *Décharge de responsabilité : Les heures non comptées dans ce récapitulatif ont servi à nous informer, comprendre le fonctionnement du protocole loRa et faire les impératifs sur les projets du à nos responsabilités au sein des groupe. Toutes nos sources sont listés avec des liens ci dessus ou bien en PDF dans les différents dossiers du projet.*    
@@ -51,6 +47,7 @@
 
 # Protocole LoRa du projet
 ## Infos utiles
+- Après beaucoup de recherche nous avons jugé qu'il était plus judicieux de partir sur une communication LoRa plutôt que LoRaWAN pour ce protocole pour pouvoir respecter le budget et le temps imparti pour réaliser cette partie des projets 
 - Temps de transmission de 4ko : 3 secondes
 - Délais entre deux transmissions consécutives de 4ko (temps de transmission compris) : 5s
 - Les détails du focntionnement du code en langage C est directement embarqué dans le code source des projets CubeIDE sous forme de commentaires adaptés à Doxygen
@@ -140,3 +137,12 @@ C --> A
 
 class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ```
+
+## Liens utiles pour comprendre la communication LoRa et LoRaWAN avec le module LoRa-E5 :
+ - Modules utilisés : https://wiki.seeedstudio.com/Grove_LoRa_E5_New_Version/ 
+ - Tuto LoRaWAN de Seeed studio : https://www.seeedstudio.com/blog/2020/08/03/lorapedia-an-introduction-of-lora-and-lorawan-technology/ 
+ - Doc des modules utilisés : https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf
+ - Doc des microprocesseurs des modules utilisés : https://files.seeedstudio.com/products/317990687/res/STM32WLE5JC%20Datasheet.pdf
+ - Video "LoRaWan end node": https://www.youtube.com/watch?v=duwUwXt-hs8&list=PL3XBzmAj53Rkkogh-lti58h_GkhzU1n7U&index=3&ab_channel=AndreasSpiess
+ - Tuto AT : https://www.disk91.com/2021/technology/lora/lora-e5-the-seeed-studio-stm32-wl-module/
+ - tuto At arduino : https://create.arduino.cc/projecthub/sufiankaki/lora-e5-communication-without-lorawan-9fbddc?ref=part&ref_id=10308&offset=18
